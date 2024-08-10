@@ -1,0 +1,13 @@
+telegram:
+  chat_id: 'chat_id'
+dates:
+  start_date: '2024-09-12'  # Format: YYYY-MM-DD
+  days_forward: 1
+stations:
+  from: '2078001' # Simferopol
+  to: '2000000' # Moscow
+seat_preferences:
+  seat_types: ['Купе', 'Плацкарт']
+  seat_positions: ['низ', 'верх']
+scheduler:
+  time_to_sleep_range: [45, 75]
